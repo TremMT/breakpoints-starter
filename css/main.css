@@ -1,8 +1,15 @@
 
-/* ----------- For screens 768px and larger ----------- */
-@media (max-width: 1199px) {
+/*--Just to fill in the white space & For screens 767px and smaller--*/
+@media (max-width: 767px) {
 	body {
     background: rgb(255, 187, 0);
+  }
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+	body {
+    background: rgb(56, 192, 255);
   }
 }
 
